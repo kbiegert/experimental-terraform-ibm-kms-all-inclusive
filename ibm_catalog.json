@@ -191,11 +191,11 @@
           "dependencies": [
             {
               "name": "deploy-arch-ibm-account-infra-base",
-              "catalog_id": "7a4d68b4-cf8b-40cd-a3d1-f49aff526eb3",
+              "catalog_id": "0fbd7aba-de09-43bf-b848-ade81f4ad0ff",
               "flavors": [
                 "standard"
               ],
-              "id": "63641cec-6093-4b4f-b7b0-98d2f4185cd6-global",
+              "id": "9fcd1945-8ebc-4072-85dc-6400653e7077-global",
               "input_mapping": [
                 {
                   "dependency_output": "workload_resource_group_name",
