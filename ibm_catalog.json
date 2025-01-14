@@ -67,11 +67,13 @@
             },
             {
               "key": "use_existing_resource_group",
-              "required": false
+              "required": false,
+              "default_value": "true"
             },
             {
               "key": "resource_group_name",
-              "required": false
+              "required": false,
+              "default_value": "Default"
             },
             {
               "key": "prefix",
@@ -191,7 +193,7 @@
           "dependencies": [
             {
               "name": "deploy-arch-ibm-account-infra-base",
-              "catalog_id": "0fbd7aba-de09-43bf-b848-ade81f4ad0ff",
+              "catalog_id": "9fcd1945-8ebc-4072-85dc-6400653e7077-global",
               "flavors": [
                 "standard"
               ],
