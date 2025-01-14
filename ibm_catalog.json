@@ -43,15 +43,6 @@
           "name": "standard",
           "install_type": "extension",
           "working_directory": "solutions/standard",
-          "compliance": {
-            "authority": "scc-v3",
-            "profiles": [
-              {
-                "profile_name": "CIS IBM Cloud Foundations Benchmark v1.1.0",
-                "profile_version": "1.1.0"
-              }
-            ]
-          },
           "iam_permissions": [
             {
               "role_crns": [
