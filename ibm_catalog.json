@@ -67,13 +67,11 @@
             },
             {
               "key": "use_existing_resource_group",
-              "required": false,
-              "default_value": "true"
+              "required": false
             },
             {
               "key": "resource_group_name",
-              "required": false,
-              "default_value": "Default"
+              "required": false
             },
             {
               "key": "prefix",
@@ -193,11 +191,11 @@
           "dependencies": [
             {
               "name": "deploy-arch-ibm-account-infra-base",
-              "catalog_id": "9fcd1945-8ebc-4072-85dc-6400653e7077-global",
+              "catalog_id": "0fbd7aba-de09-43bf-b848-ade81f4ad0ff",
               "flavors": [
                 "standard"
               ],
-              "id": "0fbd7aba-de09-43bf-b848-ade81f4ad0ff",
+              "id": "9fcd1945-8ebc-4072-85dc-6400653e7077-global",
               "input_mapping": [
                 {
                   "dependency_output": "workload_resource_group_name",
@@ -206,6 +204,10 @@
                 {
                   "version_input": "use_existing_resource_group",
                   "value": true
+                },
+                {
+                  "dependency_input": "existing_workload_resource_group_name",
+                  "value": "Default"
                 }
               ],
               "optional": true,
