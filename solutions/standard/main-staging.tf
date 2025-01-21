@@ -5,7 +5,7 @@ resource "time_sleep" "wait_10_seconds" {
 }
 
 output "resource_group_name" {
-    value = "resource_group_name"
+    value = var.resource_group_name
 }
 
 output "resource_group_id" {
@@ -37,7 +37,7 @@ output "key_rings" {
 }
 
 output "keys" {
-    value = "keys"
+    value = var.keys
 }
 
 output "kms_private_endpoint" {
