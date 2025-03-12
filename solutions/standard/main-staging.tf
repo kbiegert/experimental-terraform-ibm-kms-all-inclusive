@@ -21,11 +21,13 @@ output "resource_group_name" {
 output "resource_group_id" {
     value = "resource_group_id"
 }
-
 output "kms_guid" {
     value = "kms_guid"
 }
 
+output "kms_account_id" {
+    value       = "kms_account_id"
+}
 output "key_protect_id" {
     value = "key_protect_id"
 }
