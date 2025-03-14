@@ -33,7 +33,9 @@ output "key_protect_id" {
 }
 
 output "kms_instance_crn" {
-    value = "kms_instance_crn"
+    # emit something that looks like a valid crn for a kms service instance
+    value = "crn:v1:test:test:kms:us-south:a/11111111111111111111111111111111:22222222-3333-4444-5555-666666666666::"
+    # value = "kms_instance_crn"
 }
 
 output "key_protect_name" {
